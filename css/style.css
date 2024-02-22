@@ -1,5 +1,134 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+figure img {
+  width: 100%;
+  border-radius: 1.3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: hsl(24, 5%, 18%);
+  font-weight: lighter;
+  margin-top: 4rem;
+  margin-bottom: 1.52rem;
+}
+
+h2 {
+  font-size: 2.72rem;
+  color: hsl(14, 45%, 36%);
+}
+
+p,
+strong {
+  font-size: 1.6rem;
+  display: inline-block;
+  color: hsl(30, 10%, 34%);
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 0.001rem;
+  line-height: 2.4rem;
+}
+
+hr {
+  margin-top: 3.36rem;
+  opacity: 0.3;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+li,
+span {
+  margin-bottom: 0.8rem;
+  margin-left: 1rem;
+}
+
+.headings {
+  font-family: "Young Serif", sans-serif;
+  margin: 2.64rem 0 2.08rem 0;
+}
+
+.container {
+  max-width: 73.6rem;
+  margin: 12.3rem 0;
+  padding: 4rem 4rem 2.4rem;
+  background-color: #ffff;
+  border-radius: 2.4rem;
+}
+
+.prep-time--heading {
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  margin: 0;
+  margin-bottom: 1.28rem;
+}
+
+.prep-time--container {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 0.96rem;
+  padding: 2.48rem 2.8rem 1.84rem;
+  margin-top: 3.2rem;
+}
+
+.prep-time--container li::marker,
+.ingredients--container li::marker {
+  font-size: 1.6rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.instruction--steps {
+  display: flex;
+  flex-direction: row;
+  gap: 2.096rem;
+  margin-bottom: 1.2rem;
+}
+
+.instruction--steps span {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.nutrition--brief {
+  margin-bottom: 3.2rem;
+}
+
+.nutrition--table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.15);
+  margin-top: 1.28rem;
+  padding-bottom: 1.28rem;
+}
+
+.nutrition--table p {
+  margin-left: 3rem;
+}
+
+.nutrition--table p strong {
+  color: hsl(14, 45%, 36%);
+}
+
+.last-row {
+  border: none;
 }
