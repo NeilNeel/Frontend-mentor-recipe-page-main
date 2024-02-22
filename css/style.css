@@ -34,7 +34,7 @@ h2 {
 p,
 strong {
   font-size: 1.6rem;
-  display: inline-block;
+  /* display: inline-block; */
   color: hsl(30, 10%, 34%);
 }
 
@@ -95,14 +95,14 @@ span {
   color: hsl(30, 10%, 34%);
 }
 
-.instruction--steps {
+.table--row {
   display: flex;
   flex-direction: row;
   gap: 2.096rem;
   margin-bottom: 1.2rem;
 }
 
-.instruction--steps span {
+.table--row span {
   display: inline-block;
   font-size: 1.6rem;
   color: hsl(14, 45%, 36%);

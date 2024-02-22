@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  figure img {
+    border-radius: 0;
+  }
+
+  main {
+    padding: 0 3.04rem;
+  }
+
+  p {
+    /* display: inline; */
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
