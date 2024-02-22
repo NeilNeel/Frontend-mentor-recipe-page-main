@@ -5,7 +5,7 @@ The challenge is to build this recipe page and make it look as close to the desi
 - HTML
 - CSS
 
-![](./design/desktop-preview.jpg.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
