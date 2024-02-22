@@ -13,10 +13,6 @@
   main {
     padding: 0 3.04rem;
   }
-
-  p {
-    /* display: inline; */
-  }
 }
 
 @media (max-width: 360px) {
